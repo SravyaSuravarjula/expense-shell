@@ -1,4 +1,4 @@
-sudo dnf install nginx
+dnf install nginx
 cp expense1.conf /etc/nginx/default.d/expense1.conf
 rm -rf /usr/share/nginx/html/*
 
